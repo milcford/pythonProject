@@ -1,0 +1,5 @@
+text = 'ThisIsCamelCased'
+for i in text:
+    if i == i.isupper():
+        text.replace(i, '_' + i)
+print(text)
